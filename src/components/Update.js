@@ -1,9 +1,18 @@
 // UpdateToDo/index.js
 
-
-
 function Update() {
-  return 
+  const handleUpdateTodo = () => {
+   
+    console.log('Updating a todo');
+  };
+
+  return (
+    <div>
+      <h2>Update Todo</h2>
+      <button onClick={handleUpdateTodo}>Update</button>
+    </div>
+  );
+};
 
 }
  
