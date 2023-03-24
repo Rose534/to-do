@@ -1,6 +1,3 @@
-// ViewToDo/index.js
-
-;
 
 function View() {
   const todos = [

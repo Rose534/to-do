@@ -1,6 +1,3 @@
-// SignUp/index.js
-
-
 
 function Signup() {
   return (

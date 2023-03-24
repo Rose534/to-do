@@ -1,8 +1,3 @@
-
-// DeleteToDo/index.js
-
-
-
 function Delete() {
   
 
