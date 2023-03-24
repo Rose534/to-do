@@ -15,7 +15,7 @@ const Update = ({ updateTodo }) => {
     <div>
       
       <form onSubmit={handleSubmit}>
-        <input type="text" value={text} onChange={event => setText(event.target.value)} placeholder="New text" />
+        <input type="text" value={text} onChange={event => setText(event.target.value)} placeholder="Update" />
         <button type="submit">Update</button>
       </form>
     </div>

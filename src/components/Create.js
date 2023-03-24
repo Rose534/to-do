@@ -16,7 +16,7 @@ const Create = ({ createTodo }) => {
     <div>
       <h2>Create Todo</h2>
       <form onSubmit={handleSubmit}>
-        <input type="text" value={text} onChange={event => setText(event.target.value)} />
+        <input id="create" type="text" value={text} onChange={event => setText(event.target.value)} placeholder="Create"/>
         <button type="submit">Create</button>
       </form>
     </div>
