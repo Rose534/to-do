@@ -1,9 +1,11 @@
 // SignUp/index.js
 
-import { useState } from 'react';
+
 
 function Signup() {
-  return
+  return (
+    <h1></h1>
+  )
 
 }
 
