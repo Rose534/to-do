@@ -13,9 +13,8 @@ const Update = ({ updateTodo }) => {
 
   return (
     <div>
-      <h2>Update Todo</h2>
+      
       <form onSubmit={handleSubmit}>
-        <input type="text" value={id} onChange={event => setId(event.target.value)} placeholder="ID" />
         <input type="text" value={text} onChange={event => setText(event.target.value)} placeholder="New text" />
         <button type="submit">Update</button>
       </form>

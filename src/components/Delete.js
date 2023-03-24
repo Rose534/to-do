@@ -8,7 +8,7 @@ function Delete() {
 
   return (
     <div>
-      <h2>Delete Todo</h2>
+      
       <button onClick={handleDeleteTodo}>Delete</button>
     </div>
   );

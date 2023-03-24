@@ -31,8 +31,8 @@ function App() {
   return (
     <div>
       <Create createTodo={createTodo} />
-      <Update updateTodo={updateTodo} />
-      <Delete deleteTodo={deleteTodo} />
+      {/* <Update updateTodo={updateTodo} /> */}
+      {/* <Delete deleteTodo={deleteTodo} /> */}
       <View todos={todos} />
     </div>
   );
