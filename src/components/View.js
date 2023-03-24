@@ -27,8 +27,8 @@ function View() {
   };
 
   return (
-    <div>
-      <h2>View Todos</h2>
+    <div className="container">
+      <h2>Todo List</h2>
       <table>
         <thead>
           <tr>
@@ -42,9 +42,9 @@ function View() {
             <tr key={todo.id}>
               <td>{todo.id}</td>
               <td>{todo.text}</td>
-              <td>
-                <Delete id={todo.id} onDelete={handleDeleteTodo} />
+              <td className="actions">
                 <Update id={todo.id} text={todo.text} onUpdate={handleUpdateTodo} />
+                <Delete id={todo.id} onDelete={handleDeleteTodo} />
               </td>
             </tr>
           ))}
@@ -53,5 +53,8 @@ function View() {
     </div>
   );
 };
+
+
+
 
 export default View;

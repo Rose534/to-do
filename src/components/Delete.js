@@ -9,7 +9,7 @@ function Delete() {
   return (
     <div>
       
-      <button onClick={handleDeleteTodo}>Delete</button>
+      <button id="dlt" onClick={handleDeleteTodo}>Delete</button>
     </div>
   );
 
