@@ -43,6 +43,9 @@ Install the project dependencies:
 This will download all the dependencies listed in the package.json file and create a node_modules folder in the project directory.
 
 
+Use `code .` to open it in visual studio
+
+
 To run the app locally, run the following command:
 
      npm start
