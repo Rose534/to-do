@@ -14,6 +14,14 @@ To install Node.js and npm run the following command:
      sudo apt-get install nodejs npm
 
 
+Verify that Node.js and npm are installed by running the following commands:
+
+
+     node -v
+     
+     npm -v
+
+
 Open a terminal / command line interface on your computer
 
 
